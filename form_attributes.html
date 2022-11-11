@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_attributes.css">
+    <title>Form attributes</title>
+</head>
+<body>
+    <form action="" method="get" target="_blank" autocomplete="on">
+        <label for="cars">Choose a car </label>
+        <select name="cars" id="cars">
+            <option value="volvo" >Volvo</option>
+            <option value="saab" selected >Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="benz">Benz</option>
+        </select> <br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here">
+        
+        </textarea> <br>
+        <label for="files">Choose a file</label>
+        <input type="file" name="files" id="files" multiple> <br>
+
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        
+
+
+
+    </form>
+</body>
+</html>
